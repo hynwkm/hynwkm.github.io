@@ -2,9 +2,9 @@ import Avatar from "../Avatar/Avatar";
 
 export default function Sidebar() {
     return (
-        <div className="flex h-screen flex-col justify- border-e bg-blue-500 w-1/5 fixed">
+        <header className="flex h-screen flex-col justify- border-e bg-blue-500 w-64 fixed z-10">
             <Avatar />
-            <div className="px-4 py-6">
+            <nav className="px-4 py-6">
                 <ul className="mt-6 space-y-1">
                     <li>
                         <a
@@ -94,7 +94,7 @@ export default function Sidebar() {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
 
             <div className="fixed inset-x-0 bottom-0 border-t border-gray-100">
                 <a
@@ -110,6 +110,6 @@ export default function Sidebar() {
                     </div>
                 </a>
             </div>
-        </div>
+        </header>
     );
 }
