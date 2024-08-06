@@ -9,13 +9,13 @@ export default function Sidebar() {
                     <li>
                         <a
                             href="#"
-                            className="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-white">
+                            className="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-white active:bg-white active:text-blue-600">
                             Skills
                         </a>
                     </li>
                     <li>
                         <details className="group [&_summary::-webkit-details-marker]:hidden">
-                            <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-white hover:bg-gray-100 hover:text-gray-700">
+                            <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-white active:bg-white active:text-blue-600">
                                 <span className="text-sm font-medium">
                                     {" "}
                                     Projects{" "}
@@ -38,7 +38,7 @@ export default function Sidebar() {
                                 <li>
                                     <a
                                         href="#"
-                                        className="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700">
+                                        className="block rounded-lg px-4 py-2 text-sm font-medium text-white active:bg-white active:text-blue-600">
                                         Style-Fit (Capstone)
                                     </a>
                                 </li>
@@ -46,7 +46,7 @@ export default function Sidebar() {
                                 <li>
                                     <a
                                         href="#"
-                                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                                        className="block rounded-lg px-4 py-2 text-sm font-medium text-white active:bg-white active:text-blue-600">
                                         WealthSimple Hackathon
                                     </a>
                                 </li>
@@ -55,7 +55,7 @@ export default function Sidebar() {
                     </li>
                     <li>
                         <details className="group [&_summary::-webkit-details-marker]:hidden">
-                            <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-white hover:bg-gray-100 hover:text-gray-700">
+                            <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-white active:bg-white active:text-blue-600">
                                 <span className="text-sm font-medium">
                                     {" "}
                                     Experience{" "}
@@ -79,7 +79,7 @@ export default function Sidebar() {
                                 <li>
                                     <a
                                         href="#"
-                                        className="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700">
+                                        className="block rounded-lg px-4 py-2 text-sm font-medium text-white active:bg-white active:text-blue-600">
                                         Teaching Assistant (BrainStation)
                                     </a>
                                 </li>
@@ -89,22 +89,22 @@ export default function Sidebar() {
                     <li>
                         <a
                             href="#"
-                            className="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700">
+                            className="block rounded-lg px-4 py-2 text-sm font-medium text-white active:bg-white active:text-blue-600">
                             Education
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">
+            <div className="fixed inset-x-0 bottom-0 border-t border-gray-100">
                 <a
                     href="#"
                     className="flex items-center gap-2 p-4 hover:bg-gray-50">
                     <div className="text-white">
-                        <p className="text-sm">
+                        <p className="text-sm px-4 py-1">
                             <span> hynwkm@gmail.com </span>
                         </p>
-                        <p className="text-sm">
+                        <p className="text-sm px-4 py-1">
                             <span> 437-875-0485 </span>
                         </p>
                     </div>
