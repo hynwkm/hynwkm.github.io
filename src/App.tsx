@@ -10,16 +10,16 @@ function App() {
     const [currentSection, setCurrentSection] = useState<string>("");
 
     const { ref: ref1, inView: inView1 } = useInView({
-        threshold: 0.55,
+        threshold: 0.51,
         triggerOnce: false,
     });
     const { ref: ref2, inView: inView2 } = useInView({
-        threshold: 0.55,
+        threshold: 0.51,
         triggerOnce: false,
     });
 
     const { ref: ref3, inView: inView3 } = useInView({
-        threshold: 0.55,
+        threshold: 0.51,
         triggerOnce: false,
     });
 
@@ -53,6 +53,7 @@ function App() {
                         <div ref={ref2}>
                             <Projects />
                         </div>
+                        <div ref={ref3}></div>
                     </main>
                     <label
                         htmlFor="my-drawer-2"
@@ -65,12 +66,12 @@ function App() {
                         htmlFor="my-drawer-2"
                         aria-label="close sidebar"
                         className="drawer-overlay"></label>
-                    <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4 pl-0 pr-0">
+                    <ul className="menu bg-primary text-base-content min-h-full w-80 p-4 pl-0 pr-0">
                         {/* Sidebar content here */}
                         <Avatar />
                         <li
                             className={
-                                currentSection == "skills" ? "bg-primary" : ""
+                                currentSection == "skills" ? "bg-base-200" : ""
                             }>
                             <a
                                 href="#skills"
@@ -79,34 +80,19 @@ function App() {
                             </a>
                         </li>
                         <li
-                            tabIndex={0}
-                            className="collapse collapse-arrow rounded-none">
+                            className={`${
+                                currentSection == "projects"
+                                    ? "bg-base-200"
+                                    : ""
+                            }`}>
                             <a
-                                className={`collapse-title flex rounded-none ${
-                                    currentSection == "projects"
-                                        ? "bg-primary"
-                                        : ""
-                                }`}
+                                className="collapse-title flex rounded-none"
                                 href="#projects">
                                 Projects
                             </a>
-                            <div className="collapse-content pl-0 pr-0 w-full rounded-none">
-                                <ul className="w-full rounded-none">
-                                    <li className="rounded-none">
-                                        <a className="rounded-none">
-                                            Movies Project
-                                        </a>
-                                    </li>
-                                    <li className="rounded-none">
-                                        <a className="rounded-none">
-                                            Style-Fit (Capstone Project)
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </li>
-                        <div className="footer mt-auto flex flex-col gap-4 p-4">
-                            <div className="flex w-full gap-8">
+                        <div className="footer mt-auto flex flex-col gap-4 items-center">
+                            <div className="flex w-full gap-8 justify-center">
                                 <a
                                     href="https://github.com/hynwkm"
                                     target="_blank">
