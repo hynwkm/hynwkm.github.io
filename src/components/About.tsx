@@ -22,19 +22,19 @@ export default function About() {
                     <h1 className="mb-5 text-8xl font-bold">Hyun Woo Kim</h1>
                     <p className="mb-5 text-xl">
                         A software engineer from Korea, passionate about
-                        tackling tough challenges with elegant solutions
+                        tackling tough challenges with elegant solutions.
                     </p>
                     <p className="mb-5 text-xl">
                         Fluent in full-stack development, with a strong focus on
-                        JavaScript, React, and Node.js
+                        JavaScript, React, and Node.js.
                     </p>
                     <p className="mb-5 text-xl">
                         Committed to continuous learning, always seeking to
-                        improve through hands-on projects
+                        improve through hands-on projects.
                     </p>
                     <p className="mb-5 text-xl">
                         When I'm not coding, I enjoy cooking a good meal or
-                        taking a walk to clear my mind and recharge
+                        taking a walk to clear my mind and recharge.
                     </p>
                     <button
                         className="btn btn-primary"
