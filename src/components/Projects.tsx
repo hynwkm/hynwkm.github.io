@@ -23,7 +23,7 @@ export default function Projects() {
                                     <div className="mockup-phone border-primary">
                                         <div className="camera"></div>
                                         <div className="display">
-                                            <div className="artboard artboard-demo phone-1 pt-32">
+                                            <div className="artboard artboard-demo phone-1 pt-48 bg-black">
                                                 <img
                                                     src={project1url}
                                                     alt="Watch This Next"
@@ -37,11 +37,11 @@ export default function Projects() {
                                         Based on the freeCodeCamp Full Stack
                                         Development Course
                                     </p>
-                                    <p className="font-bold">
+                                    <p className="font-semibold">
                                         This is a full-stack movie review
                                         application created to practice building
                                         a scalable web app with{" "}
-                                        <span className="text-accent">
+                                        <span className="text-neutral font-extrabold">
                                             React, Spring Boot, and MongoDB.
                                         </span>
                                     </p>
@@ -53,7 +53,7 @@ export default function Projects() {
                                     <ul className="flex flex-col gap-4 list-disc pl-4">
                                         <li>
                                             Gained experience with{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 React
                                             </span>{" "}
                                             for building dynamic user
@@ -61,11 +61,11 @@ export default function Projects() {
                                         </li>
                                         <li>
                                             Implemented a{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 Spring Boot
                                             </span>{" "}
                                             backend, connecting it to a{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 MongoDB
                                             </span>{" "}
                                             database.
@@ -122,11 +122,11 @@ export default function Projects() {
                                     <p className="italic">
                                         Based on the project guide by Dennis Ivy
                                     </p>
-                                    <p className="font-bold">
+                                    <p className="font-semibold">
                                         This is a full-stack sticky notes
                                         application created to practice building
                                         a scalable web app with{" "}
-                                        <span className="text-accent">
+                                        <span className="text-neutral font-extrabold">
                                             React, TypeScript, and Appwrite.
                                         </span>
                                     </p>
@@ -137,7 +137,7 @@ export default function Projects() {
                                     <ul className="flex flex-col gap-4 list-disc pl-4">
                                         <li>
                                             Gained experience with{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 React
                                             </span>{" "}
                                             for creating a user-friendly,
@@ -146,7 +146,7 @@ export default function Projects() {
                                         </li>
                                         <li>
                                             Integrated{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 Appwrite
                                             </span>{" "}
                                             backend to store and manage note
@@ -189,7 +189,7 @@ export default function Projects() {
                                     <div className="mockup-phone border-primary">
                                         <div className="camera"></div>
                                         <div className="display">
-                                            <div className="artboard artboard-demo phone-1 pt-16">
+                                            <div className="artboard artboard-demo phone-1 pt-32 bg-black">
                                                 <img
                                                     src={project3url}
                                                     alt="Style-fit"
@@ -203,12 +203,12 @@ export default function Projects() {
                                         Fashion choices made easy with Style
                                         Fit.
                                     </p>
-                                    <p className="font-bold">
+                                    <p className="font-semibold">
                                         This is a personalized fashion
                                         recommendation app created to help users
                                         find outfits that match their style and
                                         body type. Built with{" "}
-                                        <span className="text-accent">
+                                        <span className="text-neutral font-extrabold">
                                             React, Node.js, and MySQL.
                                         </span>
                                     </p>
@@ -221,7 +221,7 @@ export default function Projects() {
                                     <ul className="flex flex-col gap-4 list-disc pl-4">
                                         <li>
                                             Gained experience with{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 React
                                             </span>{" "}
                                             for building dynamic user
@@ -229,11 +229,11 @@ export default function Projects() {
                                         </li>
                                         <li>
                                             Developed a{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 Node.js
                                             </span>{" "}
                                             backend integrated with{" "}
-                                            <span className="text-accent">
+                                            <span className="text-neutral font-extrabold">
                                                 MySQL
                                             </span>{" "}
                                             database to manage user data and
